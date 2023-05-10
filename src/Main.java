@@ -184,7 +184,7 @@ public class Main extends JPanel implements KeyListener{
                     g.setColor(new Color(63,191,255));
                     g.fillRect(0,0,WIDTH,HEIGHT);
                     g.drawImage(ground, 0,Main.HEIGHT - 100,8000,100, null);
-                    g.setColor(new Color(215, 17, 255));
+                    g.setColor(new Color(100, 20, 255));
                     String score = "Final Score: " + world.score;
                     f = new Font("TimesRoman", Font.BOLD, 120);
                     drawCenteredString(g, score,rect, f);
