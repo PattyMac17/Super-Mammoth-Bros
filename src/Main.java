@@ -172,17 +172,29 @@ public class Main extends JPanel implements KeyListener{
                 world.draw(g);
             }
             else{
-                g.setColor(Color.BLACK);
                 Rectangle rect = new Rectangle(0, 0, WIDTH, HEIGHT);
-                g.fillRect(0, 0, WIDTH, HEIGHT);
-                Font f = new Font("TimesRoman", Font.PLAIN, 100);
-                g.setColor(Color.white);
+                Font f;
                 if(world.winner){
+                    BufferedImage ground = null;
+                    try {
+                        ground = ImageIO.read(getClass().getResourceAsStream("ground.png"));
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    g.setColor(new Color(63,191,255));
+                    g.fillRect(0,0,WIDTH,HEIGHT);
+                    g.drawImage(ground, 0,Main.HEIGHT - 100,8000,100, null);
+                    g.setColor(new Color(215, 17, 255));
                     String score = "Final Score: " + world.score;
+                    f = new Font("TimesRoman", Font.BOLD, 120);
                     drawCenteredString(g, score,rect, f);
                 }
                 if(world.player.sixFeetUnder){
+                    g.setColor(Color.BLACK);
+                    g.fillRect(0, 0, WIDTH, HEIGHT);
+                    g.setColor(Color.white);
                     String fail = "You Died";
+                    f = new Font("TimesRoman", Font.PLAIN, 100);
                     drawCenteredString(g,fail, rect, f);
                 }
             }
