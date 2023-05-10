@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 public class Player {
-    BufferedImage left1,left2,right1,right2;
+    BufferedImage left1,left2,right1,right2, leftU, rightU;
     String direction;
     int spriteCounter = 0;
     int spriteNum = 1;
@@ -47,6 +47,8 @@ public class Player {
             right2 = ImageIO.read(getClass().getResourceAsStream("bebu_right2.png"));
             left1 = ImageIO.read(getClass().getResourceAsStream("bebu_left1.png"));
             left2 = ImageIO.read(getClass().getResourceAsStream("bebu_left2.png"));
+            leftU = ImageIO.read(getClass().getResourceAsStream("bebu_left2U.png"));
+            rightU = ImageIO.read(getClass().getResourceAsStream("bebu_right1U.png"));
         } catch (IOException e){
             e.printStackTrace();
         }
@@ -137,19 +139,28 @@ public class Player {
         BufferedImage image = null;
         switch (direction) {
             case "right":
-                if (spriteNum == 1){
-                    image = right1;
+                if(alive){
+                    if (spriteNum == 1){
+                        image = right1;
+                    }
+                    if (spriteNum == 2){
+                        image = right2;
+                    }
                 }
-                if (spriteNum == 2){
-                    image = right2;
+                else{
+                    image = rightU;
                 }
                 break;
             case "left":
-                if (spriteNum == 1){
-                    image = left1;
-                }
-                if (spriteNum == 2){
-                    image = left2;
+                if(alive){
+                    if (spriteNum == 1){
+                        image = left1;
+                    }
+                    if (spriteNum == 2){
+                        image = left2;
+                    }
+                }else{
+                    image = leftU;
                 }
                 break;
         }
