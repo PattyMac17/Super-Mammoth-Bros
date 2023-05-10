@@ -98,7 +98,7 @@ public class Main extends JPanel implements KeyListener{
     }
 
     public static void main(String[] args){
-        JFrame frame = new JFrame("Super Mammoth");
+        JFrame frame = new JFrame("Super Mammoth Bros");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Main mainInstance = new Main();
         frame.setContentPane(mainInstance);
