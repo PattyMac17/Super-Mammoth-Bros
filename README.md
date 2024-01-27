@@ -7,9 +7,9 @@ How to Launch:
 3) Execute the main file
 
   Gameplay Controls:
-    * A: Move left
-    * D: Move right
-    * W: Jump
+  * A: Move left
+  * D: Move right
+  * W: Jump
 
   Menu Controls:
   * SPACE: Start game
