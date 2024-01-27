@@ -14,12 +14,19 @@ Controls:
     W: Jump
 
   Menu:
+  
     SPACE: Start game
+    
     V: Display Controls
+    
       B: Return to Start Screen
+      
     ESC: Quit game at any time
 
 Contributors:
+
 Patrick McLean
+
 Jess Huang
+
 Vy Doan
