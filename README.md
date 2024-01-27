@@ -9,24 +9,18 @@ How to Launch:
 Controls:
 
   Gameplay:
-    A: Move left
-    D: Move right
-    W: Jump
+    -A: Move left
+    -D: Move right
+    -W: Jump
 
   Menu:
-  
-    SPACE: Start game
-    
-    V: Display Controls
-    
-      B: Return to Start Screen
-      
-    ESC: Quit game at any time
+   -SPACE: Start game
+   -V: Display Controls
+   -B: Return to Start Screen
+   -ESC: Quit game at any time
 
 Contributors:
 
-Patrick McLean
-
-Jess Huang
-
-Vy Doan
+-Patrick McLean
+-Jess Huang
+-Vy Doan
