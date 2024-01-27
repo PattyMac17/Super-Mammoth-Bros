@@ -1,3 +1,5 @@
+Welcome to Super Mammoth Bros!
+
 Super Mammoth Bros is a coding project that remixes the classic Super Mario Bros experience with the Amherst College mammoth mascot as the main character. 
 Play as the Amherst College Mammoth to defeat the Williams College Ephs, collect all the coins, and reach the goal!
 
