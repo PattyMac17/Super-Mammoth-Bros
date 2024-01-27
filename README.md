@@ -5,22 +5,19 @@ How to Launch:
 1) Clone the repository
 2) Navigate to the project folder and explore the code in your preferred coding environment
 3) Execute the main file
-   
-Controls:
 
-  Gameplay:
+  Gameplay Controls:
     * A: Move left
     * D: Move right
     * W: Jump
 
-  Menu:
-   * SPACE: Start game
-   * V: Display Controls
-   * B: Return to Start Screen
-   * ESC: Quit game at any time
+  Menu Controls:
+  * SPACE: Start game
+  * V: Display Controls
+  * B: Return to Start Screen
+  * ESC: Quit game at any time
 
 Contributors:
-
 * Patrick McLean
 * Jess Huang
 * Vy Doan
