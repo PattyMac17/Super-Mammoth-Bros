@@ -1,3 +1,5 @@
+# Super-Mammoth-Bros
+Java Genetic Algorithm to Solve Traveling Salesman Problem
 Welcome to Super Mammoth Bros!
 
 Super Mammoth Bros is a coding project that remixes the classic Super Mario Bros experience with the Amherst College mammoth mascot as the main character. 
