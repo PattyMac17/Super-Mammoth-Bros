@@ -1,0 +1,1 @@
+Super Mammoth Bros is a coding project that remixes the classic Super Mario Bros experience with the Amherst College mammoth mascot as the main character. Dive into the code, explore new possibilities, and bring this unique adventure to life!
